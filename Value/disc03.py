@@ -26,11 +26,9 @@ def sum_range(lower, upper):
 
     def copies(pmin, pmax):
         if lower <= pmin and pmax <= upper:
-
-            return
-        elif:
-
-            return
-        return
+            return True
+        elif pmax > upper:
+            return False
+        return copies(pmin+50, pmax+60)
 
         return copies(0, 0)
