@@ -1,5 +1,6 @@
 from lab03 import *
 
+
 def is_palindrome(n):
     """
     Fill in the blanks '_____' to check if a number
@@ -20,6 +21,7 @@ def is_palindrome(n):
         x, y = _____, f()
     return y == n
 
+
 def skip_mul(n):
     """Return the product of n * (n - 2) * (n - 4) * ...
 
@@ -33,6 +35,7 @@ def skip_mul(n):
     else:
         return n * skip_mul(n - 2)
 
+
 def count_up(n):
     """Print out all numbers up to and including n in ascending order.
 
@@ -43,9 +46,12 @@ def count_up(n):
     4
     5
     """
+
     def counter(i):
         "*** YOUR CODE HERE ***"
+
     counter(1)
+
 
 def is_prime(n):
     """Returns True if n is a prime number and False otherwise.
@@ -57,7 +63,14 @@ def is_prime(n):
     >>> is_prime(521)
     True
     """
-    "*** YOUR CODE HERE ***"
+    def helper(i):
+        if i >= n:
+            return True
+        elif n % i == 0:
+            return False
+        return helper(i + 1)
+    return helper(2)
+
 
 def interleaved_sum(n, odd_term, even_term):
     """Compute the sum odd_term(1) + even_term(2) + odd_term(3) + ..., up
@@ -68,6 +81,7 @@ def interleaved_sum(n, odd_term, even_term):
     29
     """
     "*** YOUR CODE HERE ***"
+
 
 def ten_pairs(n):
     """Return the number of ten-pairs within positive integer n.
