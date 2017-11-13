@@ -37,6 +37,7 @@ class Link:
             self = self.rest
         return string + str(self.first) + '>'
 
+
 def digits(n):
     """Return the digits of n as a linked list.
 
@@ -48,8 +49,20 @@ def digits(n):
     s = Link.empty
     while n > 0:
         n, last = n // 10, n % 10
-        "*** YOUR CODE HERE ***"
+        s = Link(last, s)
     return s
+
+
+def reverse_digits(n):
+    """Return the digits of n as a linked list.
+
+    >>> digits(0) is Link.empty
+    True
+    >>> digits(543)
+    Link(5, Link(4, Link(3)))
+    """
+
+
 
 class Fib():
     """A Fibonacci number.
@@ -77,10 +90,17 @@ class Fib():
         self.value = value
 
     def next(self):
-        "*** YOUR CODE HERE ***"
+        if self.value == 0:
+            result = Fib(1)
+        else:
+            result = Fib(self.value + self.previous)
+        result.previous = self.value
+        return result
+
 
     def __repr__(self):
         return str(self.value)
+
 
 class VendingMachine:
     """A vending machine that vends some product for some price.
@@ -119,7 +139,35 @@ class VendingMachine:
     >>> w.vend()
     'Here is your soda.'
     """
-    "*** YOUR CODE HERE ***"
+    def __init__(self, product, price):
+        self.product = product
+        self.price = price
+        self.stock = 0
+        self.balance = 0
+
+    def restock(self, n):
+        self.stock += n
+        return 'Current {0} stock: {1}'.format(self.product, self.stock)
+
+    def deposit(self, n):
+        if self.stock == 0:
+            return 'Machine is out of stock. Here is your ${0}.'.format(n)
+        self.balance += n
+        return 'Current balance: ${0}'.format(self.balance)
+
+    def vend(self):
+        if self.stock == 0:
+            return 'Machine is out of stock.'
+        difference = self.price - self.balance
+        if difference > 0:
+            return 'You must deposit ${0} more.'.format(difference)
+        message = 'Here is your {0}'.format(self.product)
+        if difference != 0:
+            message += ' and ${0} change'.format(-difference)
+        self.balance = 0
+        self.stock -= 1
+        return message + '.'
+
 
 class MissManners:
     """A container class that only forwards messages that say please.
@@ -152,6 +200,7 @@ class MissManners:
     >>> double_fussy.ask('please ask', 'please deposit', 10)
     'Current balance: $10'
     """
+
     def __init__(self, obj):
         self.obj = obj
 
