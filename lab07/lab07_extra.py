@@ -1,6 +1,10 @@
 from lab07 import *
 
+
 # Q6
+from lab07.lab07 import Tree, Link
+
+
 def cumulative_sum(t):
     """Mutates t where each node's root becomes the sum of all entries in the
     corresponding subtree rooted at t.
@@ -10,7 +14,10 @@ def cumulative_sum(t):
     >>> t
     Tree(16, [Tree(8, [Tree(5)]), Tree(7)])
     """
-    "*** YOUR CODE HERE ***"
+    for st in t.branches:
+        cumulative_sum(st)
+    t.label = sum([st.label for st in t.braches]) + t.label
+
 
 # Q7
 def reverse_other(t):
@@ -27,6 +34,7 @@ def reverse_other(t):
     """
     "*** YOUR CODE HERE ***"
 
+
 # Q8
 def deep_map_mut(fn, link):
     """Mutates a deep link by replacing each item found with the
@@ -41,6 +49,7 @@ def deep_map_mut(fn, link):
     <9 <16> 25 36>
     """
     "*** YOUR CODE HERE ***"
+
 
 # Q9
 def has_cycle(link):
@@ -58,6 +67,7 @@ def has_cycle(link):
     False
     """
     "*** YOUR CODE HERE ***"
+
 
 def has_cycle_constant(link):
     """Return whether link contains a cycle.

@@ -2,29 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0544f154-69b5-4004-b985-d49d60dbcae7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw07/.ok_history" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw07/.ok_messages" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw07/.ok_storage.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab07/.ok_history" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab07/.ok_messages" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab07/.ok_storage.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab07/ok" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Objects/19.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Objects/disc05.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw07/.ok_storage.bak" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw07/.ok_storage.dir" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab07/.ok_storage.bak" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab07/.ok_storage.dir" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab07/lab07.ok" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab07/lab07.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab07/lab07_extra.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab07/tests/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab07/tests/link.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab07/tests/trees.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab07/timing.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hw07/ok" afterPath="$PROJECT_DIR$/hw07/ok" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hw07/hw07.py" afterPath="$PROJECT_DIR$/hw07/hw07.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab07/lab07_extra.py" afterPath="$PROJECT_DIR$/lab07/lab07_extra.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,14 +24,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="lab07.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="lab07.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lab07/lab07.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="170" column="28" lean-forward="false" selection-start-line="170" selection-start-column="28" selection-end-line="170" selection-end-column="28" />
+            <state relative-caret-position="600">
+              <caret line="158" column="21" lean-forward="false" selection-start-line="158" selection-start-column="13" selection-end-line="158" selection-end-column="21" />
               <folding>
                 <element signature="e#58#307#0" expanded="false" />
                 <element signature="e#340#661#0" expanded="false" />
+                <element signature="e#699#1282#0" expanded="false" />
                 <element signature="e#1318#3541#0" expanded="false" />
                 <element signature="e#1645#1805#0" expanded="false" />
                 <element signature="e#1838#2280#0" expanded="false" />
@@ -61,12 +41,23 @@
                 <element signature="e#2880#3330#0" expanded="false" />
                 <element signature="e#3371#3411#0" expanded="false" />
                 <element signature="e#3443#3541#0" expanded="false" />
-                <element signature="e#3618#3741#0" expanded="false" />
                 <element signature="e#3775#3953#0" expanded="false" />
                 <element signature="e#3986#4010#0" expanded="false" />
                 <element signature="e#4049#4164#0" expanded="false" />
                 <element signature="e#4197#4441#0" expanded="false" />
                 <element signature="e#4476#4539#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lab07_extra.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lab07/lab07_extra.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="431">
+              <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,6 +100,7 @@
         <option value="$PROJECT_DIR$/Objects/disc05.py" />
         <option value="$PROJECT_DIR$/Objects/19.py" />
         <option value="$PROJECT_DIR$/lab07/lab07.py" />
+        <option value="$PROJECT_DIR$/lab07/lab07_extra.py" />
       </list>
     </option>
   </component>
@@ -119,11 +111,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="1119" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -156,33 +147,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="cs61" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cs61" type="462c0819:PsiDirectoryNode" />
+              <item name="cs61a" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cs61a" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="cs61" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cs61" type="462c0819:PsiDirectoryNode" />
+              <item name="cs61a" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cs61a" type="462c0819:PsiDirectoryNode" />
               <item name="lab07" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cs61" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cs61" type="462c0819:PsiDirectoryNode" />
-              <item name="Objects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cs61" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -362,17 +344,17 @@
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1119" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21086262" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21299255" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07960199" sideWeight="0.5058565" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30853173" sideWeight="0.4941435" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44610283" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4454365" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -431,6 +413,31 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lab07/lab07.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#58#307#0" expanded="false" />
+            <element signature="e#340#661#0" expanded="false" />
+            <element signature="e#1318#3541#0" expanded="false" />
+            <element signature="e#1645#1805#0" expanded="false" />
+            <element signature="e#1838#2280#0" expanded="false" />
+            <element signature="e#2313#2537#0" expanded="false" />
+            <element signature="e#2577#2827#0" expanded="false" />
+            <element signature="e#2880#3330#0" expanded="false" />
+            <element signature="e#3371#3411#0" expanded="false" />
+            <element signature="e#3443#3541#0" expanded="false" />
+            <element signature="e#3618#3741#0" expanded="false" />
+            <element signature="e#3775#3953#0" expanded="false" />
+            <element signature="e#3986#4010#0" expanded="false" />
+            <element signature="e#4049#4164#0" expanded="false" />
+            <element signature="e#4197#4441#0" expanded="false" />
+            <element signature="e#4476#4539#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lab07/lab07.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -643,14 +650,6 @@
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/pycharm64.exe.vmoptions" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/idea.properties" />
-    <entry file="file://$PROJECT_DIR$/hw07/hw07.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="164" column="27" lean-forward="false" selection-start-line="164" selection-start-column="27" selection-end-line="164" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Objects/disc05.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -666,13 +665,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/hw07/hw07.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="180" column="41" lean-forward="true" selection-start-line="180" selection-start-column="41" selection-end-line="180" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lab07/lab07.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="170" column="28" lean-forward="false" selection-start-line="170" selection-start-column="28" selection-end-line="170" selection-end-column="28" />
+        <state relative-caret-position="600">
+          <caret line="158" column="21" lean-forward="false" selection-start-line="158" selection-start-column="13" selection-end-line="158" selection-end-column="21" />
           <folding>
             <element signature="e#58#307#0" expanded="false" />
             <element signature="e#340#661#0" expanded="false" />
+            <element signature="e#699#1282#0" expanded="false" />
             <element signature="e#1318#3541#0" expanded="false" />
             <element signature="e#1645#1805#0" expanded="false" />
             <element signature="e#1838#2280#0" expanded="false" />
@@ -681,12 +689,21 @@
             <element signature="e#2880#3330#0" expanded="false" />
             <element signature="e#3371#3411#0" expanded="false" />
             <element signature="e#3443#3541#0" expanded="false" />
-            <element signature="e#3618#3741#0" expanded="false" />
             <element signature="e#3775#3953#0" expanded="false" />
             <element signature="e#3986#4010#0" expanded="false" />
             <element signature="e#4049#4164#0" expanded="false" />
             <element signature="e#4197#4441#0" expanded="false" />
             <element signature="e#4476#4539#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab07/lab07_extra.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
